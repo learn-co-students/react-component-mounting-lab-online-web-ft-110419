@@ -6,7 +6,8 @@ class Timer extends Component {
     color: "#" + Math.floor(Math.random() * 16777215).toString(16)
   };
 
-  // add your code here
+
+  
 
   render() {
     const { time, color } = this.state;
