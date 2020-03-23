@@ -9,16 +9,12 @@ class App extends Component {
     timerIDs: []
   }
 
-
+  // Using componentDidMount is reserved for taking initial actions within an app. 
+  // Actions might include getting remote API data, setting cursor focus, or creating an interval or timeout.
   //Your code here:
-
-
-
-
-
-
-
-
+  componentDidMount() {
+    this.handleAddTimer()
+  }
 
   // No need to modify anything in render or the class methods below
   // Unless, of course, you're curious about how it all works
